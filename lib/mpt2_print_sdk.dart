@@ -12,7 +12,7 @@ class Mpt2PrintSdk {
     return version;
   }
 
-  Future<int> connectPrinter(String mac) async {
+  static Future<int> connectPrinter(String mac) async {
     return await _platformChannel
         .invokeMethod('connectPrinter', <String, dynamic>{"mac": mac});
   }

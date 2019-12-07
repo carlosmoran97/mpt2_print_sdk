@@ -1,6 +1,6 @@
 name: mpt2_print_sdk
 description: Flutter SDK for MPT 2 mobile bluetooth printer
-version: 0.0.2
+version: 0.0.3
 author: Carlos Morán <carlosmoran.97cr@gmail.com>
 homepage: https://github.com/carlosmoran97/mpt2_print_sdk
 
