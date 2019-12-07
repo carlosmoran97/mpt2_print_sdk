@@ -34,4 +34,8 @@ class Mpt2PrintSdk {
   static Future<bool> disconnectPrinter() async {
     return await _platformChannel.invokeMethod('disconnectPrinter');
   }
+
+  static Future<bool> isConnected() async {
+    return await _platformChannel.invokeMethod('isConnected');
+  }
 }
